@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: orange;
+    font-family: Arial, Tahoma;
+    text-align: center;
+}
+#barra{
+    background-color: #333;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+#barra h1{
+    color: #fff;
+}
+#conteudo{
+    width: 900px;
+    background: #fff;
+    margin: 0 auto;
+    height: 4000px;
+    position: relative;
+    top: 100px;
+}
+#rodape{
+    height: 50px;
+    line-height: 50px;
+    background-color: green;
+    position: relative;
+    top: 100px;
+}
